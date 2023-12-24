@@ -1,0 +1,49 @@
+
+p {
+    color: black;
+}
+
+h2 {
+    color: chocolate;
+}
+
+header, footer {
+    background-color: lavenderblush;
+}
+
+article span {
+    color: black;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.large_header {
+    font-size: 30px;
+}
+
+#about_container p, #about_container h2
+
+#services_wrapper div{
+    width: 40%;
+}
+
+
+#services_wrapper img{
+    width: 40%;
+}
+ 
+#services_wrapper ul,header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+header {
+    justify-content: space-around;
+    padding: 15%;
+}
+
+ul {
+    list-style: inside;
+    gap: 50px;
+}
